@@ -1,4 +1,28 @@
 
 fieldset{
+    margin-left: auto;
+    margin-right: auto;    
     background-color:bisque;
+}
+
+caption{
+    background-color: cyan;
+}
+
+td:hover{
+    background-color:red;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,td{
+    font-weight: bold;
+    color:grey;
+}
+
+.fill{
+    background-color:lightgrey;
 }
