@@ -9,13 +9,13 @@
         <table>
             <caption>January 2017</caption>
                 <tr>
-                <th>S</th>
-                <th>M</th>
-                <th>T</th>
-                <th>W</th>
-                <th>T</th>
-                <th>F</th>
-                <th>S</th>
+                <th class="weekdays">S</th>
+                <th class="weekdays">M</th>
+                <th class="weekdays">T</th>
+                <th class="weekdays">W</th>
+                <th class="weekdays">T</th>
+                <th class="weekdays">F</th>
+                <th class="weekdays">S</th>
                 </tr>
 
             <tbody>
@@ -24,7 +24,7 @@
                     <td><a href=#>1</a></td>
                     <td>2</td>
                     <td>3</td>
-                    <td>4</td>
+                    <td class ="today">4</td>
                     <td>5</td>
                     <td>6</td>
                     <td>7</td>
@@ -64,13 +64,13 @@
                     <td><a href="#">29</a></td>
                     <td>30</td>
                     <td>31</td>
-                    <td colspan="4" class="fill"></td>
+                    <td colspan="4" class="fill disable"></td>
                 </tr>
 
                 <tr>
-                    <td colspan="3" class="fill"><a href='#'><< Dec</a></td>
-                    <td></td>
-                    <td colspan="3" class="fill"><a href="#"> Feb>></a></td>
+                    <td colspan="3" class="fill disable"><a href='#'><< Dec</a></td>
+                    <td class="fill disable"></td>
+                    <td colspan="3" class="fill disable"><a href="#"> Feb>></a></td>
                 </tr>
 
             </tbody>
@@ -82,11 +82,11 @@
                 <legend>Meeting Details</legend>
                 <p>
                     <label>Client Name:</label>
-                    <input type="text" name="ClientName" hint="Enter Name"/>
+                    <input type="text" name="client" hint="Enter Name"/>
                 </p>
                 <p>
                     <label>First Meeting?</label>
-                    <input type="checkbox" name="1stMeeting"/>
+                    <input type="checkbox" name="first"/>
                 </p>
                 <p>
                     <label>Client Type:</label>
